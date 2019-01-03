@@ -24,17 +24,46 @@
             </objects>
             <point key="canvasLocation" x="-225" y="476"/>
         </scene>
-        <!--View Controller-->
+        <!--Internet Detail View Controller-->
         <scene sceneID="FX0-Jh-jRK">
             <objects>
-                <viewController id="d1W-Ui-lGa" sceneMemberID="viewController">
+                <viewController id="d1W-Ui-lGa" customClass="InternetDetailViewController" customModule="NetworkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DMh-iC-zIy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-kO-Twl">
+                                <rect key="frame" x="166" y="215" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myY-N8-K1T">
+                                <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="32c-vo-GqH"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="myY-N8-K1T" firstAttribute="bottom" secondItem="yTa-5X-ghq" secondAttribute="bottom" id="7DH-3v-tzK"/>
+                            <constraint firstItem="myY-N8-K1T" firstAttribute="centerX" secondItem="jcT-kO-Twl" secondAttribute="centerX" id="9EL-6k-bhw"/>
+                            <constraint firstItem="myY-N8-K1T" firstAttribute="leading" secondItem="DMh-iC-zIy" secondAttribute="leading" id="cOM-p1-x10"/>
+                            <constraint firstAttribute="trailing" secondItem="myY-N8-K1T" secondAttribute="trailing" id="hFz-mi-j52"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yTa-5X-ghq"/>
                     </view>
                     <navigationItem key="navigationItem" id="ccz-wN-rcF"/>
+                    <connections>
+                        <outlet property="screenTitle" destination="jcT-kO-Twl" id="Den-Te-ESE"/>
+                        <outlet property="webViewer" destination="myY-N8-K1T" id="1yl-Nv-XRV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4jL-fT-7ZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +72,7 @@
         <!--Root View Controller-->
         <scene sceneID="2tG-qm-TdR">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="wM5-tN-oHR" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="wM5-tN-oHR" customClass="InternetMasterViewController" customModule="NetworkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="e19-6h-zev">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
