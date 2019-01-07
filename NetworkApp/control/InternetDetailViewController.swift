@@ -6,7 +6,6 @@
 //  Copyright © 2019 Denna, Zachary. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import WebKit
 
@@ -17,6 +16,7 @@ class InternetDetailViewController: UIViewController
    
     @IBOutlet weak var screenTitle: UILabel!
     @IBOutlet weak var webViewer: WKWebView!
+    
     var detailTitle : String?
     {
         didSet
@@ -39,19 +39,19 @@ class InternetDetailViewController: UIViewController
             if (detailTitle?.range(of: "Definitions",  options: .caseInsensitive) != nil)
             {
                 loadPDF()
-                }
-                else
-                {
+            }
+            else
+            {
                 if (detailAddress != nil)
                 {
-                loadURL (webAddress: detailAddress!)
+                     loadURL (webAddress: detailAddress!)
                 }
-                }
-                screenTitle?.text = detailTitle
+              }
+            screenTitle?.text = detailTitle
         }
     }
     
-    public override func viewDidLoad()
+    public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
         
@@ -67,7 +67,7 @@ class InternetDetailViewController: UIViewController
     }
     private func loadPDF() -> Void
     {
-        if let contentPDF = Bundle.main.url(forResource: "Internet Terms",  withExtension: "pdf", subdirectory: nil, localization: nil)
+        if let contentPDF = Bundle.main.url(forResource: "java project",  withExtension: "pdf", subdirectory: nil, localization: nil)
         {
             let requestedPDF = NSURLRequest(url: contentPDF)
             webViewer.load(requestedPDF as URLRequest)

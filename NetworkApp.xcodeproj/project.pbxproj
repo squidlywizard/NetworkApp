@@ -13,6 +13,7 @@
 		146019AE21DD11FC00EF2EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146019AC21DD11FC00EF2EF7 /* LaunchScreen.storyboard */; };
 		146019B921DD18DF00EF2EF7 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146019B821DD18DF00EF2EF7 /* InternetMasterViewController.swift */; };
 		146019BB21DD1CD400EF2EF7 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146019BA21DD1CD400EF2EF7 /* InternetDetailViewController.swift */; };
+		147F9F2821DFBD1D003476E1 /* java project.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 147F9F2721DFBD1D003476E1 /* java project.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		146019AF21DD11FC00EF2EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146019B821DD18DF00EF2EF7 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		146019BA21DD1CD400EF2EF7 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		147F9F2721DFBD1D003476E1 /* java project.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "java project.pdf"; path = "../../../../../../Downloads/java project.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				146019A321DD11F200EF2EF7 /* AppDelegate.swift */,
 				146019AA21DD11FC00EF2EF7 /* Assets.xcassets */,
+				147F9F2721DFBD1D003476E1 /* java project.pdf */,
 				146019AF21DD11FC00EF2EF7 /* Info.plist */,
 			);
 			path = settings;
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				146019AE21DD11FC00EF2EF7 /* LaunchScreen.storyboard in Resources */,
+				147F9F2821DFBD1D003476E1 /* java project.pdf in Resources */,
 				146019AB21DD11FC00EF2EF7 /* Assets.xcassets in Resources */,
 				146019A921DD11F200EF2EF7 /* Main.storyboard in Resources */,
 			);

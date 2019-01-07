@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkApp/control/InternetMasterViewController.swift"
+            timestampString = "568311231.9005719"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "InternetMasterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkApp.InternetMasterViewController.(internetTopics in _9411412AC37E642D2D0AD740BD1BB149).getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "NetworkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zden9518/Documents/ios%20apps/lable/NetworkApp/NetworkApp/control/InternetMasterViewController.swift"
+                  timestampString = "568311231.9075021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkApp.InternetMasterViewController.(internetTopics in _9411412AC37E642D2D0AD740BD1BB149).setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "NetworkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zden9518/Documents/ios%20apps/lable/NetworkApp/NetworkApp/control/InternetMasterViewController.swift"
+                  timestampString = "568311231.909331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkApp.InternetMasterViewController.init(style: __C.UITableViewStyle) -&gt; NetworkApp.InternetMasterViewController"
+                  moduleName = "NetworkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zden9518/Documents/ios%20apps/lable/NetworkApp/NetworkApp/control/InternetMasterViewController.swift"
+                  timestampString = "568311231.91137"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkApp.InternetMasterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NetworkApp.InternetMasterViewController"
+                  moduleName = "NetworkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zden9518/Documents/ios%20apps/lable/NetworkApp/NetworkApp/control/InternetMasterViewController.swift"
+                  timestampString = "568311231.9134361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkApp.InternetMasterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NetworkApp.InternetMasterViewController&gt;"
+                  moduleName = "NetworkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zden9518/Documents/ios%20apps/lable/NetworkApp/NetworkApp/control/InternetMasterViewController.swift"
+                  timestampString = "568311231.915185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "145">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

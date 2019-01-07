@@ -23,7 +23,7 @@ public class InternetMasterViewController: UITableViewController
             "AP CSP 🍄",
             "Canyons District 🌤",
             "CTEC ☎️",
-            "Social Media 🌞",
+            "Social Media 🌞"
         ]
         
         addresses = [
@@ -32,7 +32,7 @@ public class InternetMasterViewController: UITableViewController
             "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course",
             "http://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
-            "https://www.instagram.com/?hl=en",
+            "https://www.instagram.com/?hl=en"
             
         ]
         if let splitView = splitViewController
@@ -52,7 +52,7 @@ public class InternetMasterViewController: UITableViewController
         if let split = splitViewController
         {
             let controllers = split.viewControllers
-            internetDetail = (controllers[controllers.count-1] as! UINavigationController).topViewController as? InternetDetailViewController
+            internetDetail = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? InternetDetailViewController
         }
         
         // Do any additional setup after loading the view.
